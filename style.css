@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* p{
+    margin: 0;
+    padding: 0;
+} */
+button{
+    border: 0;
+}
+.container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+header{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #4B4AEF;
+}
+.head-menu{
+    flex-direction: column;
+}
+.h-but{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.headmain-img {
+    width: 500px;
+}
+.con-img {
+    width: 500px;
+}
+.login{
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.sinngup{
+    width: 100px;
+    height: 40px;
+    background-color: #FFCA1D;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.text-main_title{
+    width: 75%;
+    font-size: 65px;
+    color: #ffffff;
+}
+.text-main_subtitle{
+    width: 75%;
+    font-size: 30px;
+    color: #ffffff;
+}
+.textmain-start_button{
+    width: 170px;
+    height: 60px;
+    background-color: #FFCA1D;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.first-s{
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.text-con{
+    color: #585858;
+    font-size: 30px;
+}
+.pic-con{
+    height: 90px;
+    width: 50%;
+}
+.ss-fun{
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.second-s{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f-title{
+    color: #585858;
+    font-size: 50px;
+}
+span{
+    color: #FFCA1D;
+}
+.ssf-card{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-tit{
+    color: #2B3377;
+    font-size: 24px;
+}
+.card-stit{
+    color: #585858;
+    font-size: 20px;
+}
+.third-s{
+    flex-direction: column;
+    align-items: center;
+}
+.ts-tit{
+    color: #585858;
+    font-size:  50px;
+}
+.text-con-tit{
+    color: #4A4A4A;
+    font-size: 50px;
+}
+.text-con-stit{
+    font-size: 25px;
+}
+.third-s_con-text{
+    width: 40%;
+}
+.third-s_con{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+footer{
+    background-color: #2B3377;
+}
+.footer{
+    padding-top: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
